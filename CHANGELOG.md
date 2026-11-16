@@ -2,6 +2,10 @@
 
 Each entry is one version of this template. Breaking changes come first.
 
+## 2.2.46-1 (2026-11-16)
+
+- README: Deploy on Railway button for the published template `nocobase-1`. No change to the app or its configuration.
+
 ## 2.2.46 (2026-11-16)
 
 - First release: NocoBase 2.2.46 (`nocobase/nocobase:2.2.46@sha256:26d7caf261956ee34c9ce3066372bf189a0a8739e946cc9164bad556d7f4f9fd`) with Railway Postgres.

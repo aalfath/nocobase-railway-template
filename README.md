@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/nocobase-1?utm_medium=integration&utm_source=button&utm_campaign=nocobase)
+
 # NocoBase on Railway
 
 This repo is the source of the **NocoBase** template on Railway. It deploys [NocoBase](https://www.nocobase.com/) **2.2.46**, an open-source no-code and low-code platform for building internal tools, CRMs and business apps on top of a database.
