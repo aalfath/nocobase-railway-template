@@ -2,13 +2,13 @@
 
 # NocoBase on Railway
 
-This repo is the source of the **NocoBase** template on Railway. It deploys [NocoBase](https://www.nocobase.com/) **2.2.46**, an open-source no-code and low-code platform for building internal tools, CRMs and business apps on top of a database.
+This repo is the source of the **NocoBase** template on Railway. It deploys [NocoBase](https://www.nocobase.com/) **2.2.49**, an open-source no-code and low-code platform for building internal tools, CRMs and business apps on top of a database.
 
 ## What the template deploys
 
 | Service | Source | Notes |
 |---|---|---|
-| `NocoBase` | this repo (`Dockerfile`) | `nocobase/nocobase:2.2.46` pinned by digest, with a small start script. Public domain on port 80 (the image's nginx), health check `/api/__health_check`, volume on `/app/nocobase/storage` (uploads, plugins, logs) |
+| `NocoBase` | this repo (`Dockerfile`) | `nocobase/nocobase:2.2.49` pinned by digest, with a small start script. Public domain on port 80 (the image's nginx), health check `/api/__health_check`, volume on `/app/nocobase/storage` (uploads, plugins, logs) |
 | `Postgres` | Railway Postgres | NocoBase's database, private network only |
 
 ## Variables
