@@ -1,6 +1,6 @@
 # NocoBase for Railway: the official image, pinned by version and digest.
 # Upstream: https://github.com/nocobase/nocobase (docker/nocobase)
-FROM nocobase/nocobase:2.2.46@sha256:26d7caf261956ee34c9ce3066372bf189a0a8739e946cc9164bad556d7f4f9fd
+FROM nocobase/nocobase:2.2.49@sha256:b620b1558ba5ac11f092dbc50bb8855d6c75e18829f28243f7a42e8081d502e2
 
 # Fixed settings. Railway variables override them.
 ENV DB_DIALECT=postgres \
